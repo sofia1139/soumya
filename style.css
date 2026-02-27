@@ -1,0 +1,29 @@
+body{
+background:pink;
+text-align:center;
+font-family:Arial;
+}
+
+img{
+width:120px;
+animation:bounce 2s infinite;
+}
+
+@keyframes bounce{
+0%{transform:translateY(0);}
+50%{transform:translateY(-20px);}
+100%{transform:translateY(0);}
+}
+
+button{
+padding:12px;
+margin:15px;
+font-size:18px;
+border-radius:20px;
+border:none;
+cursor:pointer;
+}
+
+#noBtn{
+position:absolute;
+}
